@@ -2,9 +2,12 @@
 This Python script converts Ardupiot .bin log file into Microsoft excel format.
 
 ## Install Required Libraries:
-pymavlink: For parsing ArduPilot log files.
-pandas: For handling data manipulation.
-openpyxl: For writing to Excel files.
+**pymavlink**: For parsing ArduPilot log files.
+
+**pandas**: For handling data manipulation.
+
+**openpyxl**: For writing to Excel files.
+
 You can install these libraries using pip:
 ``` C++
 pip3 install pymavlink pandas openpyxl
@@ -19,4 +22,5 @@ pip3 install pymavlink pandas openpyxl
 - Replace **'output.xlsx'** with the desired path for the output Excel file.
 - Run the script.
 This script will parse the log file, extract the relevant data, and write it to an Excel file with each message type in a separate sheet.
+
 **Feel free to modify and re-distribute this script with appropriate Credits.**
