@@ -51,6 +51,6 @@ def main(input_log, output_excel):
     print(f"Data successfully written to {output_excel}")
 
 if __name__ == "__main__":
-    input_log = 'log1.bin'  
+    input_log = 'path_to_your_log_file.bin'  
     output_excel = 'output.xlsx'
     main(input_log, output_excel)
