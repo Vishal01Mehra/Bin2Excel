@@ -6,6 +6,9 @@ pymavlink: For parsing ArduPilot log files.
 pandas: For handling data manipulation.
 openpyxl: For writing to Excel files.
 You can install these libraries using pip:
+``` C++
+pip3 install pymavlink pandas openpyxl
+```
 
 ## Explanation:
 1. parse_ardupilot_log: This function reads the ArduPilot log file using pymavlink and parses the messages into a dictionary. Each message type is stored as a list of dictionaries.
