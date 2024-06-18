@@ -1,4 +1,3 @@
-![alt text]([http://url/to/img.png)](https://github.com/Vishal01Mehra/Bin2Excel/blob/main/V2/assets/frame0/Screenshot.jpg?raw=true)
 
 # Bin2Excel
 This Python script converts Ardupiot .bin log file into Microsoft excel format.
