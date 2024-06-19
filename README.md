@@ -1,4 +1,4 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Vishal01Mehra/Bin2Excel/blob/main/V2/assets/frame0/Screenshot%202024-06-18%20at%206.00.05%E2%80%AFPM.jpg "Logo Title Text 1")
 
 # Bin2Excel
 This Python script converts Ardupiot .bin log file into Microsoft excel format.
