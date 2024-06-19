@@ -7,7 +7,7 @@ import pandas as pd
 from pymavlink import mavutil # type: ignore
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/Users/vishalmehra/Desktop/build/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"/Bin2Excel/Main/build/assets/frame0")
 
 
 def relative_to_assets(path: str) -> Path:
