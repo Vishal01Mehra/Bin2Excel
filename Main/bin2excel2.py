@@ -1,5 +1,4 @@
 from pathlib import Path
-
 # from tkinter import *
 # Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, filedialog, messagebox
@@ -7,7 +6,7 @@ import pandas as pd
 from pymavlink import mavutil # type: ignore
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/Users/vishalmehra/Desktop/build/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"/Bin2Excel/Main/assets/frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -19,7 +18,6 @@ def parse_ardupilot_log(file_path):
 
     # Dictionary to hold all parsed data
     data = {}
-
     # Read messages from the log
     while True:
         try:
