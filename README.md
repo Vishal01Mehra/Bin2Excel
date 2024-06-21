@@ -2,7 +2,7 @@
 This Python script converts Ardupiot .bin log file into Microsoft excel format With GUI.
 
 ## Install Required Libraries:
-**Tkinter** for GUI elements.
+**Tkinter**: for GUI elements.
 
 **pymavlink**: For parsing ArduPilot log files.
 
